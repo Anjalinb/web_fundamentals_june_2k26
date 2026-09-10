@@ -111,7 +111,7 @@ id      title      year     language        run_time
 ```
 
 `http_request for adding new movie`
-
+```
 url:localhost:8000/movie/
 method:POST
 body:{
@@ -120,21 +120,21 @@ body:{
     "language":"malayalam",
     "runtime":150
 }
-
+```
 
 
 `http_request for list all movie`
-
+```
 url:localhost:8000/movie/
 method:GET
-
+```
 `http_request for fetching movie detail`
-
+```
 url:localhost:8000/movie/2
 method:GET
-
+```
 `http_request for update movie`
-
+```
 url:localhost:8000/movie/3
 method:PUT
 body:{
@@ -144,13 +144,16 @@ body:{
     "runtime":180
    
 }
+```
 `http_request for delete movie`
+```
 url:localhost:8000/movie/2
 method:DELETE
+```
 
 
 ### Hospital Task
-
+```
 id   patient_name  phone_no    assigned_doc      consultation_fee
 
 
@@ -160,8 +163,9 @@ id   patient_name  phone_no    assigned_doc      consultation_fee
 4          lia      9837647374      rowan          450
 5          dan      8736541537      aelin          180
 
-
+```
 `http_request for adding new patient`
+```
 url:localhost:8000/patient/
 method:POST
 body:{
@@ -170,16 +174,21 @@ body:{
     "assigned_doc":"sam",
     "consulatation_fee":240
 }
-
+```
 `http_request for list all patient`
+```
 url:localhost:8000/patient/
 method:GET
+```
 
 `http_request for fetching patient detail`
+```
 url:localhost:8000/patient/2
 method:GET
+```
 
 `http_request for update patient`
+```
 url:localhost:8000/patient/5
 method:PUT
 body:{
@@ -188,7 +197,9 @@ body:{
     "assigned_doc":"sam",
     "consulatation_fee":240
 }
-
+```
 `http_request for delete patient`
+```
 url:localhost:8000/patient/5
 method:DELETE
+```
